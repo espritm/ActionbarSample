@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="moreOption">more option...</string>
+  <string name="cloche">Cloche</string>
+  <string name="titleRenamed">Action bar renamed !</string>
+  <string name="titleBase">Action bar Sample</string>
+</resources>
