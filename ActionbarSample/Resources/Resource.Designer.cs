@@ -799,44 +799,44 @@ namespace App1
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f09003b
-			public const int abc_background_cache_hint_selector_material_dark = 2131296315;
-			
-			// aapt resource value: 0x7f09003c
-			public const int abc_background_cache_hint_selector_material_light = 2131296316;
-			
-			// aapt resource value: 0x7f09003d
-			public const int abc_btn_colored_borderless_text_material = 2131296317;
-			
-			// aapt resource value: 0x7f09003e
-			public const int abc_btn_colored_text_material = 2131296318;
-			
 			// aapt resource value: 0x7f09003f
-			public const int abc_color_highlight_material = 2131296319;
+			public const int abc_background_cache_hint_selector_material_dark = 2131296319;
 			
 			// aapt resource value: 0x7f090040
-			public const int abc_hint_foreground_material_dark = 2131296320;
+			public const int abc_background_cache_hint_selector_material_light = 2131296320;
 			
 			// aapt resource value: 0x7f090041
-			public const int abc_hint_foreground_material_light = 2131296321;
+			public const int abc_btn_colored_borderless_text_material = 2131296321;
+			
+			// aapt resource value: 0x7f090042
+			public const int abc_btn_colored_text_material = 2131296322;
+			
+			// aapt resource value: 0x7f090043
+			public const int abc_color_highlight_material = 2131296323;
+			
+			// aapt resource value: 0x7f090044
+			public const int abc_hint_foreground_material_dark = 2131296324;
+			
+			// aapt resource value: 0x7f090045
+			public const int abc_hint_foreground_material_light = 2131296325;
 			
 			// aapt resource value: 0x7f090001
 			public const int abc_input_method_navigation_guard = 2131296257;
 			
-			// aapt resource value: 0x7f090042
-			public const int abc_primary_text_disable_only_material_dark = 2131296322;
-			
-			// aapt resource value: 0x7f090043
-			public const int abc_primary_text_disable_only_material_light = 2131296323;
-			
-			// aapt resource value: 0x7f090044
-			public const int abc_primary_text_material_dark = 2131296324;
-			
-			// aapt resource value: 0x7f090045
-			public const int abc_primary_text_material_light = 2131296325;
-			
 			// aapt resource value: 0x7f090046
-			public const int abc_search_url_text = 2131296326;
+			public const int abc_primary_text_disable_only_material_dark = 2131296326;
+			
+			// aapt resource value: 0x7f090047
+			public const int abc_primary_text_disable_only_material_light = 2131296327;
+			
+			// aapt resource value: 0x7f090048
+			public const int abc_primary_text_material_dark = 2131296328;
+			
+			// aapt resource value: 0x7f090049
+			public const int abc_primary_text_material_light = 2131296329;
+			
+			// aapt resource value: 0x7f09004a
+			public const int abc_search_url_text = 2131296330;
 			
 			// aapt resource value: 0x7f090002
 			public const int abc_search_url_text_normal = 2131296258;
@@ -847,32 +847,32 @@ namespace App1
 			// aapt resource value: 0x7f090004
 			public const int abc_search_url_text_selected = 2131296260;
 			
-			// aapt resource value: 0x7f090047
-			public const int abc_secondary_text_material_dark = 2131296327;
-			
-			// aapt resource value: 0x7f090048
-			public const int abc_secondary_text_material_light = 2131296328;
-			
-			// aapt resource value: 0x7f090049
-			public const int abc_tint_btn_checkable = 2131296329;
-			
-			// aapt resource value: 0x7f09004a
-			public const int abc_tint_default = 2131296330;
-			
 			// aapt resource value: 0x7f09004b
-			public const int abc_tint_edittext = 2131296331;
+			public const int abc_secondary_text_material_dark = 2131296331;
 			
 			// aapt resource value: 0x7f09004c
-			public const int abc_tint_seek_thumb = 2131296332;
+			public const int abc_secondary_text_material_light = 2131296332;
 			
 			// aapt resource value: 0x7f09004d
-			public const int abc_tint_spinner = 2131296333;
+			public const int abc_tint_btn_checkable = 2131296333;
 			
 			// aapt resource value: 0x7f09004e
-			public const int abc_tint_switch_thumb = 2131296334;
+			public const int abc_tint_default = 2131296334;
 			
 			// aapt resource value: 0x7f09004f
-			public const int abc_tint_switch_track = 2131296335;
+			public const int abc_tint_edittext = 2131296335;
+			
+			// aapt resource value: 0x7f090050
+			public const int abc_tint_seek_thumb = 2131296336;
+			
+			// aapt resource value: 0x7f090051
+			public const int abc_tint_spinner = 2131296337;
+			
+			// aapt resource value: 0x7f090052
+			public const int abc_tint_switch_thumb = 2131296338;
+			
+			// aapt resource value: 0x7f090053
+			public const int abc_tint_switch_track = 2131296339;
 			
 			// aapt resource value: 0x7f090005
 			public const int accent_material_dark = 2131296261;
@@ -985,11 +985,20 @@ namespace App1
 			// aapt resource value: 0x7f090028
 			public const int notification_material_background_media_default_color = 2131296296;
 			
+			// aapt resource value: 0x7f09003b
+			public const int primary = 2131296315;
+			
+			// aapt resource value: 0x7f09003c
+			public const int primary_dark = 2131296316;
+			
 			// aapt resource value: 0x7f090029
 			public const int primary_dark_material_dark = 2131296297;
 			
 			// aapt resource value: 0x7f09002a
 			public const int primary_dark_material_light = 2131296298;
+			
+			// aapt resource value: 0x7f09003d
+			public const int primary_light = 2131296317;
 			
 			// aapt resource value: 0x7f09002b
 			public const int primary_material_dark = 2131296299;
@@ -1033,17 +1042,20 @@ namespace App1
 			// aapt resource value: 0x7f090038
 			public const int switch_thumb_disabled_material_light = 2131296312;
 			
-			// aapt resource value: 0x7f090050
-			public const int switch_thumb_material_dark = 2131296336;
+			// aapt resource value: 0x7f090054
+			public const int switch_thumb_material_dark = 2131296340;
 			
-			// aapt resource value: 0x7f090051
-			public const int switch_thumb_material_light = 2131296337;
+			// aapt resource value: 0x7f090055
+			public const int switch_thumb_material_light = 2131296341;
 			
 			// aapt resource value: 0x7f090039
 			public const int switch_thumb_normal_material_dark = 2131296313;
 			
 			// aapt resource value: 0x7f09003a
 			public const int switch_thumb_normal_material_light = 2131296314;
+			
+			// aapt resource value: 0x7f09003e
+			public const int white = 2131296318;
 			
 			static Color()
 			{
@@ -1615,46 +1627,49 @@ namespace App1
 			public const int abc_vector_test = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int appicon_cloche = 2130837587;
+			public const int appicon_share = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int Icon = 2130837588;
+			public const int ic_share_white_24dp = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int notification_action_background = 2130837589;
+			public const int Icon = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int notification_bg = 2130837590;
+			public const int notification_action_background = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int notification_bg_low = 2130837591;
+			public const int notification_bg = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int notification_bg_low_normal = 2130837592;
+			public const int notification_bg_low = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int notification_bg_low_pressed = 2130837593;
+			public const int notification_bg_low_normal = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int notification_bg_normal = 2130837594;
+			public const int notification_bg_low_pressed = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int notification_bg_normal_pressed = 2130837595;
+			public const int notification_bg_normal = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int notification_icon_background = 2130837596;
-			
-			// aapt resource value: 0x7f02005f
-			public const int notification_template_icon_bg = 2130837599;
-			
-			// aapt resource value: 0x7f020060
-			public const int notification_template_icon_low_bg = 2130837600;
+			public const int notification_bg_normal_pressed = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int notification_tile_bg = 2130837597;
+			public const int notification_icon_background = 2130837597;
+			
+			// aapt resource value: 0x7f020060
+			public const int notification_template_icon_bg = 2130837600;
+			
+			// aapt resource value: 0x7f020061
+			public const int notification_template_icon_low_bg = 2130837601;
 			
 			// aapt resource value: 0x7f02005e
-			public const int notify_panel_notification_icon_bg = 2130837598;
+			public const int notification_tile_bg = 2130837598;
+			
+			// aapt resource value: 0x7f02005f
+			public const int notify_panel_notification_icon_bg = 2130837599;
 			
 			static Drawable()
 			{
@@ -1755,9 +1770,6 @@ namespace App1
 			
 			// aapt resource value: 0x7f0a0062
 			public const int chronometer = 2131361890;
-			
-			// aapt resource value: 0x7f0a006d
-			public const int cloche = 2131361901;
 			
 			// aapt resource value: 0x7f0a001e
 			public const int collapseActionView = 2131361822;
@@ -1920,6 +1932,9 @@ namespace App1
 			
 			// aapt resource value: 0x7f0a0055
 			public const int select_dialog_listview = 2131361877;
+			
+			// aapt resource value: 0x7f0a006d
+			public const int share = 2131361901;
 			
 			// aapt resource value: 0x7f0a003f
 			public const int shortcut = 2131361855;
@@ -2122,7 +2137,7 @@ namespace App1
 			public const int abc_select_dialog_material = 2130903066;
 			
 			// aapt resource value: 0x7f03001b
-			public const int Main = 2130903067;
+			public const int MainActivity = 2130903067;
 			
 			// aapt resource value: 0x7f03001c
 			public const int notification_action = 2130903068;
@@ -2303,14 +2318,14 @@ namespace App1
 			// aapt resource value: 0x7f050012
 			public const int abc_toolbar_collapse_description = 2131034130;
 			
-			// aapt resource value: 0x7f050022
-			public const int cloche = 2131034146;
-			
 			// aapt resource value: 0x7f050021
 			public const int moreOption = 2131034145;
 			
 			// aapt resource value: 0x7f050013
 			public const int search_menu_title = 2131034131;
+			
+			// aapt resource value: 0x7f050022
+			public const int share = 2131034146;
 			
 			// aapt resource value: 0x7f050014
 			public const int status_bar_notification_info_overflow = 2131034132;
@@ -2333,6 +2348,9 @@ namespace App1
 		
 		public partial class Style
 		{
+			
+			// aapt resource value: 0x7f07015f
+			public const int ActionBarSampleTheme = 2131165535;
 			
 			// aapt resource value: 0x7f07009f
 			public const int AlertDialog_AppCompat = 2131165343;

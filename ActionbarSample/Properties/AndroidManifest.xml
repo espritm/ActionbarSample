@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="App1.App1" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.maximeesprit.ActionbarSample" android:versionCode="1" android:versionName="1.0">
   <uses-sdk android:minSdkVersion="16" />
-  <application android:label="Action bar Sample" android:theme="@style/Theme.AppCompat.Light"></application>
+  <application android:label="@string/titleBase" android:theme="@style/ActionBarSampleTheme"></application>
 </manifest>
