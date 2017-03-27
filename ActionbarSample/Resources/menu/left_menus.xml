@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+    <item
+      android:id="@+id/leftmenu_profile"
+      android:icon="@drawable/ic_account_circle_black_24dp"
+      android:title="@string/leftmenu_profile" />
+    <item
+      android:id="@+id/leftmenu_shopping_list"
+      android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+      android:title="@string/leftmenu_shopping_list" />
+    <item
+      android:id="@+id/leftmenu_favorites"
+      android:icon="@drawable/ic_favorite_black_24dp"
+      android:title="@string/leftmenu_favorites" />
+  </group>
+  <item android:title="@string/leftmenu_params" >
+    <menu>
+      <item
+        android:title="@string/leftmenu_params_option"
+        android:id="@+id/leftmenu_params_option"
+        android:icon="@drawable/ic_build_black_24dp" />
+      <item
+        android:title="@string/leftmenu_params_about"
+        android:id="@+id/leftmenu_params_about"
+        android:icon="@drawable/ic_help_outline_black_24dp" />
+    </menu>
+  </item>
+</menu>

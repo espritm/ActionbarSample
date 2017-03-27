@@ -4,4 +4,10 @@
   <string name="share">Partager sur les réseaux sociaux</string>
   <string name="titleRenamed">Action bar renamed !</string>
   <string name="titleBase">Action bar Sample</string>
+  <string name="leftmenu_profile">Mon Profile</string>
+  <string name="leftmenu_shopping_list">Ma shopping list</string>
+  <string name="leftmenu_favorites">Mes favoris</string>
+  <string name="leftmenu_params">Paramètres</string>
+  <string name="leftmenu_params_option">Options</string>
+  <string name="leftmenu_params_about">A propos</string>
 </resources>
