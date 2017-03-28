@@ -5,5 +5,6 @@
   <color name="primary_dark">#447884</color>
   <color name="primary_light">#6B949E</color>
   <color name="white">#ffffff</color>
+  <color name="red_notif">#ffC60000</color>
   
 </resources>

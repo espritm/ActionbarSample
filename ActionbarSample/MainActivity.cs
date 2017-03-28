@@ -8,6 +8,8 @@ using Android.Support.V4.Widget;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
+using Android.Graphics;
+using Android.Util;
 
 namespace App1
 {
@@ -74,6 +76,8 @@ namespace App1
         
         private void M_navigationView_NavigationItemSelected(object sender, NavigationView.NavigationItemSelectedEventArgs e)
         {
+            AddBadgeNotificationToMenuItem(e.MenuItem);
+
             switch (e.MenuItem.ItemId)
             {
                 case Resource.Id.leftmenu_profile:
@@ -105,8 +109,36 @@ namespace App1
             imageviewUserAvatar.SetImageResource(Resource.Drawable.photo_profil);
             textviewUserPseudo.Text = "Maxime Esprit";
             textviewUserDesc.Text = "A passionate mobile apps developer";
-            
+                        
             m_navigationView.AddHeaderView(viewHeader);
+        }
+
+        private void AddBadgeNotificationToMenuItem(IMenuItem menuItem)
+        {
+            TextView textviewBadgeNotif = (TextView)MenuItemCompat.GetActionView(m_navigationView.Menu.FindItem(menuItem.ItemId));
+
+            //Red square with rounded corner and white text color
+            textviewBadgeNotif.SetBackgroundResource(Resource.Drawable.left_menus_itemBadge);
+            textviewBadgeNotif.SetTextColor(Color.White);
+            textviewBadgeNotif.Gravity = GravityFlags.Center;
+
+            //square size = 25 x 25 dp
+            FrameLayout.LayoutParams lparams = (FrameLayout.LayoutParams)textviewBadgeNotif.LayoutParameters;
+            lparams.Height = (int)TypedValue.ApplyDimension(ComplexUnitType.Dip, 25, Resources.DisplayMetrics);
+            lparams.Width = (int)TypedValue.ApplyDimension(ComplexUnitType.Dip, 25, Resources.DisplayMetrics);
+            textviewBadgeNotif.LayoutParameters = lparams;
+
+            //Show or hide badge notification
+            if (textviewBadgeNotif.Text != "")
+            {
+                textviewBadgeNotif.Text = "";
+                textviewBadgeNotif.Visibility = ViewStates.Gone;
+            }
+            else
+            {
+                textviewBadgeNotif.Text = "1";
+                textviewBadgeNotif.Visibility = ViewStates.Visible;
+            }
         }
     }
 }
